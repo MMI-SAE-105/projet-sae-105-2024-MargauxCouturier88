@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : Couturier
+- PRÉNOM : Margaux
+- GROUPE : A2
+- URL du site : https://gleeful-unicorn-aa273d.netlify.app
 - URL FIGMA :
