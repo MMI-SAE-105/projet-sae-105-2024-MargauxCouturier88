@@ -7,5 +7,100 @@
 </head>
 <body>
     
+    <header class="header">
+        <a class="header__logo" href="index.html">
+            <img class="header__logo-img" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
+        </a>
+        <h1 class="header__titre">Train MagLev</h1>
+        <img class="header__iconLangue" src="/assets/img/Header/icon.langue.svg" alt="Icone changement de langue">
+        <img class="header__iconMenu" src="/assets/img/Header/logo.menu.svg" alt="Icone menu">
+
+        <ul class="menu">
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="ArticleObjet.html">Le Train MagLev</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="ArticleFilm.html">Le Pôle Express</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="ArticleLivre.html">Ces trains qui ont marqué l'histoire</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page"href="ArticleMusique.html">Freedom Train</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="ArticleRealisateur.html">David Leitch</a>
+            </li>
+            <li class="menu__titre">
+                <h3 class="menu__titre-titre">Galerie des films</h3>
+                    <li>
+                        <a class="menu__titre-page" href="filmAction.html">Films d'action</a>
+                        <a class="menu__titre-page" href="filmComique.html">Films comiques</a>
+                        <a class="menu__titre-page" href="filmSuspense.html">Films à suspense</a>
+                    </li>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="AutreProjet.html">Autres Projets</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="Contact.html">Contact</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="Glossaire.html">Glossaires</a>
+            </li>
+            <li class="menu__titre">
+                <a class="menu__titre-page" href="aPropos.html">À Propos</a>
+            </li>
+        <img class="menu__img" src="/assets/img/Menu/photo-menu.svg" alt="">
+        </ul>
+    </header>
+
+    <section>
+        <h1>Contactez-nous</h1>
+        <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter ! Vous pouvez nous joindre 
+            par <a href=mailto:margaux.couturier02@edu.univ-fcomte.fr>E-MAIL</a> ou en remplissant le formulaire ci-dessous. Nous serons ravis de vous répondre dans les plus 
+            brefs délais.</p>
+    </section>
+
+    <div class="contact-form">
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="prénom">Prénom :</label>
+            <input type="prénom" id="prénom" name="prénom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Motif de la demande">Motif de la demande :</label>
+            <select id="motif" name="motif" required>
+                <option value="">--Veuillez choisir une option--</option>
+                <option value="support">Support technique</option>
+                <option value="information">Demande d'informations</option>
+                <option value="reclamation">Réclamation</option>
+                <option value="autre">Autre</option>
+            </select>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <img class="footer__logo" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
+        <p class="footer__texte">Margaux Couturier | Groupe A2</p>
+        <h3 class="footer__legale">Mentions Légales</h3>
+        <p class="footer__texte">
+            Projet réalisé en 2024 dans le cadre d’un exercice pédagogique au département <a
+                href="https://blogdummi.fr/" class="hero__link">MMI de Montbéliard</a>.
+        </p>
+        <img class="footer__img" src="/assets/img/Footer/Train-footer.svg" alt="Train bas de page">
+        <a class="footer__texte" href="mailto:margaux.couturier02@edu.univ-fcomte.fr">margaux.couturier02@edu.univ-fcomte.fr</a>
+        <img class="footer__social" src="/assets/img/Footer/icone-social.svg" alt="Icone réseau sociaux">
+    </footer>
+
 </body>
 </html>
