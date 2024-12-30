@@ -1,1 +1,10 @@
-@import 
+
+/*Vendors*/
+
+/*Utils*/
+
+/*Base*/
+
+/*layout*/
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
