@@ -1,8 +1,10 @@
-@import "/src/css/utils/colors.css";
+
 /*Vendors*/
 
-/*Utils*/
+@import "/src/css/vendors/normalize.css";
 
+/*Utils*/
+@import "/src/css/utils/colors.css";
 /*Base*/
 
 /*layout*/
