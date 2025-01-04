@@ -1,26 +1,10 @@
-/*Header*/
-
 .header {
-    background-color : var(--brand-sea-blue);
-}
-
-.header__logo {
-    size: 50px;
-
+    background-color: var(--brand-blue-navy);
 }
 .header__logo-img {
-    size: 50px;
+    width: 50px;
 }
+
 .header__titre {
-font-family: didot ;
-
-}
-.header__langue-btn {
-
-}
-.header__iconLangue {
-
-}
-.header__iconMenu {
-
+    color: white;
 }
