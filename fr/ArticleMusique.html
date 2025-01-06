@@ -8,56 +8,66 @@
     <script defer src="/src/js/script.js"></script>
 </head>
 <body>
-    
     <header class="header">
-        <a class="header__logo" href="index.html">
-            <img class="header__logo-img" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
-        </a>
+        <div class="header__logo">
+            <a href="index.html">
+                <img class="header__logo-img" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
+            </a>
+        </div>
         <h1 class="header__titre">Train MagLev</h1>
-        <a class="header__langue-btn" href="EN-ArticleMusique.html">
+        <a class="header__langue-btn" href="EN-Index.html">
             <img class="header__iconLangue" src="/assets/img/Header/icon.langue.svg" alt="Icone changement de langue">
         </a>
-        <img class="header__iconMenu" src="/assets/img/Header/logo.menu.svg" alt="Icone menu">
+        <button class="headermenu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btnbar" aria-hidden="true"></span>
+        </button>
 
-        <ul class="menu">
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="ArticleObjet.html">Le Train MagLev</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="ArticleFilm.html">Le Pôle Express</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="ArticleLivre.html">Ces trains qui ont marqué l'histoire</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page"href="ArticleMusique.html">Freedom Train</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="ArticleRealisateur.html">David Leitch</a>
-            </li>
-            <li class="menu__titre">
-                <h3 class="menu__titre-titre">Galerie des films</h3>
-                    <li>
-                        <a class="menu__titre-page" href="filmAction.html">Films d'action</a>
-                        <a class="menu__titre-page" href="filmComique.html">Films comiques</a>
-                        <a class="menu__titre-page" href="filmSuspense.html">Films à suspense</a>
-                    </li>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="AutreProjet.html">Autres Projets</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="Contact.html">Contact</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="Glossaire.html">Glossaires</a>
-            </li>
-            <li class="menu__titre">
-                <a class="menu__titre-page" href="aPropos.html">À Propos</a>
-            </li>
-        <img class="menu__img" src="/assets/img/Menu/photo-menu.svg" alt="">
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu">
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="ArticleObjet.html">Le Train MagLev</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="ArticleFilm.html">Le Pôle Express</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="ArticleLivre.html">Ces trains qui ont marqué l'histoire</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page"href="ArticleMusique.html">Freedom Train</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="ArticleRealisateur.html">David Leitch</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="filmAction.html">Films d'action</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="filmComique.html">Films comiques</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="filmSuspense.html">Films à suspense</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="Frise.html">Frise chronologique</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="AutreProjet.html">Autres Projets</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="Contact.html">Contact</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="Glossaire.html">Glossaires</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="aPropos.html">À Propos</a>
+                </li>
         </ul>
+        <img src="/assets/img/Menu/photo-menu.svg" alt="photo menu">
+        </nav>
     </header>
+
     <section class="presentation">
         <h1 class="presentation__titre">Freedom Train</h1>
         <img class="presentation__image" src="/assets/img/Article musique/1-photo.svg" alt="Affiche musique">
