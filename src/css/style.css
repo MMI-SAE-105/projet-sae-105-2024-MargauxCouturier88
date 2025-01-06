@@ -1,6 +1,15 @@
+/*Typographie*/
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 /*Base*/
 
 @import "/src/css/base/menu.css";
+@import "/src/css/base/index.css";
+@import "/src/css/base/objet.css";
+
 /*Vendors*/
 
 @import "/src/css/vendors/normalize.css";

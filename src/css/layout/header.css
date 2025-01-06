@@ -7,5 +7,11 @@
 
 .header__titre {
     color: white;
-    size : 24px ;
+    font-size : 24px ;
+    text-align: center;
+}
+
+.header__iconLangue {
+    width: 30px;
+    margin-right: 10px;
 }
