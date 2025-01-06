@@ -1,0 +1,117 @@
+/* Mise à jour du style pour correspondre à votre HTML */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--brand-blue-navy);
+}
+
+.header__logo {
+    height: 50px;
+}
+
+.header__menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    color: var(--black);
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+    background-color: #483D8B;
+}
+
+.header__menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.header__langue-btn {
+    text-decoration: none;
+    background: none !important;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    width: 26px;
+    height: 27px;
+    cursor: pointer;
+    margin-right: 22px;
+    margin-left: auto;
+}
+
+.menu__titre-page {
+    color: var(--blanc, #FFF);
+    text-decoration: none;
+    font-family: var(--Raleway);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 132%;
+    letter-spacing: 1px;
+    padding: 10px 0;
+}
+
+.menu__titre {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--black);
+}
+
+.headermenu-btn {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.menu-btnbar,
+.menu-btnbar::before,
+.menu-btnbar::after {
+    content: "";
+    background: white;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-btnbar::before {
+    top: -10px;
+}
+
+.menu-btnbar::after {
+    top: 10px;
+}
+
+.headermenu-btn[aria-expanded="true"] .menu-btnbar,
+.headermenu-btn[aria-expanded="true"] .menu-btnbar::before,
+.headermenu-btn[aria-expanded="true"] .menu-btnbar::after {
+    transform: rotate(135deg);
+    background: white;
+}
+
+.headermenu-btn[aria-expanded="true"] .menu-btnbar::before,
+.headermenu-btn[aria-expanded="true"] .menu-btnbar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.menu {
+    margin-top: 100px;
+    list-style-type: none;
+    padding-left: 20px;
+}
