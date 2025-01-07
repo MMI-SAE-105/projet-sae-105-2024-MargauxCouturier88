@@ -1,0 +1,83 @@
+
+.card__projet {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.card__projet-1 {
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--brand-sea-blue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.card__projet-2 {
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--brand-gold);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.card__projet-3 {
+    width: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--brand-green);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.card__projet-1:hover, .card__projet-2:hover, .card__projet-3:hover {
+    transform: translateY(-5px); 
+}
+
+.card__projet-image {
+    width: 250px;
+    height: 150px;
+    object-fit: none;
+    position: relative;
+    margin-top: 15px;
+}
+
+.card__projet-projet {
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.card__projet-nom {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.card__projet-bouton {
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px auto;
+    transition: background-color 0.3s ease;
+}
+
+.card__projet-bouton-img {
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-left: 120px;
+    display: flex;
+    margin-bottom: 0px;
+
+}
