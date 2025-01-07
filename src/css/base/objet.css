@@ -36,7 +36,8 @@
 }
 
 .presentation__bouton {
-    
+    margin-left: 250px;
+    margin-top: 20px;
 }
 
 /*Article*/
@@ -67,4 +68,10 @@
     margin-right: 20px;
     padding-bottom: 5px;
 }
-.article__bouton-btn 
+.article__bouton-btn {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 14px;
+}
