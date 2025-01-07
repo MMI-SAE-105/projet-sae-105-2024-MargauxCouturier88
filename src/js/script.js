@@ -16,7 +16,7 @@ if (toggle && nav) {
     });
 }
 
-//Carrousel
+//Carrousel autre projet
 
 const prevButton = document.querySelector('.carousel-button.prev');
 const nextButton = document.querySelector('.carousel-button.next');
@@ -46,4 +46,7 @@ nextButton.addEventListener('click', () => {
         });
     }
 });
+
+//Carrousel film
+
 
