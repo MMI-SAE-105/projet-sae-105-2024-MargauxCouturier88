@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À Propos</title>
+    <link rel="stylesheet" href="/src/css/style.css"/>
+    <script defer src="/src/js/script.js"></script>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header__logo">
+            <a href="/en/Index.html">
+                <img class="header__logo-img" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
+            </a>
+        </div>
+        <h1 class="header__titre">Train MagLev</h1>
+        <a class="header__langue-btn" href="/fr/Contact.html">
+            <img class="header__iconLangue" src="/assets/img/Header/icon.langue.svg" alt="Icone changement de langue">
+        </a>
+        <button class="headermenu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btnbar" aria-hidden="true"></span>
+        </button>
+
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu">
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-ArticleObjet.html">The MagLev Train</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-ArticleLivre.html">The Pôle Express</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-ArticleLivre.html">Ces trains qui ont marqué l'histoire</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-ArticleMusique.html">Freedom Train</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-ArticleRealisateur.html">David Leitch</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-FilmAction.html">Action movies</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-FilmComique.html">Comic movies</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="filmSuspense.html">Thriller movies</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-Frise.html">Chronological frieze</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-AutreProjet.html">Other projects</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-contact.html">Contact</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-Glossaire.html">Glossaries</a>
+                </li>
+                <li class="menu__titre">
+                    <a class="menu__titre-page" href="/en/EN-a-propos.html">About</a>
+                </li>
+        </ul>
+        </nav>
+    </header>
+
+    <body class="body">
+
+        <section class="introduction">
+            <h1 class="introduction__titre">Contact</h1>
+            <p class="introduction__texte">For any question or request for information, do not hesitate to contact us! You can reach us <a href=mailto:margaux.couturier02@edu.univ-fcomte.fr>EMAIL</a> or by filling out the form below. We will be happy to answer you as soon as possible.</p>
+        </section>
+    
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name :</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="prénom">First name :</label>
+                <input type="prénom" id="prénom" name="prénom" required>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="Motif de la demande">Reason for the request :</label>
+                <select  id="motif" name="motif" required>
+                    <option value="">--please select an option--</option>
+                    <option value="support">technical support</option>
+                    <option value="information">Dinformation request</option>
+                    <option value="reclamation">Claim</option>
+                    <option value="autre">Other</option>
+                </select>
+    
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        </body>
+
+    <footer class="footer">
+        <img class="footer__logo" src="/assets/img/logo-Maglev.png" alt="Logo MagLev">
+        <p class="footer__nom">Margaux Couturier | Group A2</p>
+        <h3 class="footer__legale">Legal notice</h3>
+        <p class="footer__texte">
+            Project carried out in 2024 as part of an educational exercise at the<a
+                href="https://blogdummi.fr/" class="hero__link">MMi department of Montbéliard</a>.
+        </p>
+        <a class="footer__texte" href="mailto:margaux.couturier02@edu.univ-fcomte.fr">margaux.couturier02@edu.univ-fcomte.fr</a>
+        <img class="footer__social" src="/assets/img/Footer/icone-social.svg" alt="Icone réseau sociaux">
+    </footer>
+
+</body>
+</html>
