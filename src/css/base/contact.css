@@ -1,0 +1,100 @@
+    
+.introduction__titre {
+    font-family: 'Didot';
+    margin-left: 20px;
+    font-size: 36px;
+    margin-top: 34px;
+}   
+
+.introduction__texte {
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: 'Mulish';
+    margin-right: 20px;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px 30px;
+    max-width: 300px; 
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px; 
+    color: #333; 
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    margin-top: 5px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.contact-form button {
+    margin-top: 20px; 
+    padding: 12px 20px; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; 
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 15px 20px; 
+    }
+
+    .contact-form label {
+        font-size: 14spx; 
+    }
+
+   
+
+    .contact-form button {
+        font-size: 14px; 
+    }
+}
+
+.contact__motif {
+    font-size: 30px;
+}
+
+
+
+.contact-form select {
+    font-size: 18px; 
+}
