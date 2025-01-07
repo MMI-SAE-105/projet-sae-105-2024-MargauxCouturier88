@@ -47,6 +47,5 @@ nextButton.addEventListener('click', () => {
     }
 });
 
-//Carrousel film
 
 
