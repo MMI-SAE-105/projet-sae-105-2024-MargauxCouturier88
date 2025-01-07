@@ -10,6 +10,8 @@
 @import "/src/css/base/index.css";
 @import "/src/css/base/objet.css";
 @import "/src/css/base/glossaire.css";
+@import "/src/css/base/film.css";
+@import "/src/css/base/apropos.css";
 
 /*Vendors*/
 

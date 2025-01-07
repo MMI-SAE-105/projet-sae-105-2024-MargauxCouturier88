@@ -1,0 +1,86 @@
+.body {
+    background-color: var(--brand-light-blue);
+}
+
+/*Introduction*/
+
+.introduction {
+
+}
+.introduction__titre {
+    font-family: 'Didot';
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 34px;
+}
+.introduction__texte {
+    font-family: 'Mulish';
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+/*Film*/
+
+.film__affiche {
+    width: 250px; 
+    height: 350px; 
+    object-fit: cover;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 11px;
+}
+
+.film__titre {
+    font-family: 'Nunito';
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.film__realisateur {
+    font-family: 'Mulish';
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.film__annee {
+    font-family: 'Mulish';
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.film__ba {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 14px;
+}
+.film__ba-btn {
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-left: auto;
+    display: flex;
+    margin-bottom: 0px;
+}
+.film__texte {
+    font-family: 'Mulish';
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.horizontal-line {
+    height: 1px;
+    background-color: #000;
+    width: 85%;
+    margin: 29px 0;
+    margin: 20px auto;
+
+}
