@@ -6,11 +6,13 @@
     align-items: center;
     padding: 10px 100px;
     background-color: var(--brand-blue-navy);
+    gap: 10px;
     
 }
 
 .header__logo {
     height: 50px;
+    margin-left: 20px;
 }
 
 .header__menu {
