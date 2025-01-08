@@ -67,10 +67,6 @@
     color: #ffc107;
 }
 
-.beige-title {
-    color: #f5f5dc;
-}
-
 .timeline-text {
     margin: 5px 0 0;
 }
@@ -78,7 +74,7 @@
 .timeline-year {
     position: absolute;
     right: -60px;
-    font-size: 1.2em;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -92,10 +88,6 @@
 
 .yellow-year {
     color: #ffc107;
-}
-
-.beige-year {
-    color: #f5f5dc;
 }
 
 .timeline-img {

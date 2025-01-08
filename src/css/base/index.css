@@ -21,7 +21,8 @@
 }
 
 .introduction__texte {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: 'Mulish';
     color: #000;
     font-size: 14px;
