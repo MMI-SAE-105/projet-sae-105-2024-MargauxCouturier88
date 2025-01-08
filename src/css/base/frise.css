@@ -12,6 +12,7 @@
     align-items: center;
     margin: 20px 0;
     position: relative;
+    position: relative;
 }
 
 .timeline-circle {
@@ -22,6 +23,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    position: relative;
 }
 
 .blue-circle {
@@ -96,4 +98,23 @@
     object-fit: cover;
     object-position: center; 
     margin-right: 50px;
+    position: relative;
+}
+
+.frise__ligne {
+    position: absolute; 
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 90%; 
+    z-index: -1;
+}
+.frise__ligne-ligne {
+    position: relative;
+    position: absolute; 
+    top: 0; 
+    left: 22%; 
+    transform: translateX(-50%); 
+    width: 11.5%; 
+    z-index: -1; 
 }
