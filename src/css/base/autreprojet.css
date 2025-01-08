@@ -10,6 +10,7 @@
 
 .card__project-carousel {
     display: flex; 
+    margin-left: 20px;
 }
 
 .card__projet-1 {
