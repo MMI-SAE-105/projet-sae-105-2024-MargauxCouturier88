@@ -1,0 +1,46 @@
+.plan-site {
+    width: min(calc(100% - 2rem), 75rem);
+    margin: 0 auto 3rem;
+}
+
+.plan-site__groupes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+    gap: 1rem;
+}
+
+.plan-site__groupe {
+    padding: 1.5rem;
+    background-color: var(--brand-light-blue);
+    border-radius: 0.75rem;
+}
+
+.plan-site__groupe h2 {
+    margin-top: 0;
+    color: var(--brand-blue-navy);
+    font-family: 'Mulish', sans-serif;
+}
+
+.plan-site__groupe ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.plan-site__groupe li {
+    margin: 0.75rem 0;
+}
+
+.plan-site__groupe a {
+    color: var(--brand-sea-blue);
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.sitemap-header .header__logo {
+    display: block;
+    height: auto;
+}
+
+.sitemap-header .header__logo-img {
+    width: clamp(44px, 6vw, 70px);
+}
