@@ -30,7 +30,8 @@
     order: 4;
     flex-basis: 100%; 
     text-align: right; 
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    color: #FFFFFF; 
 }
 
 .footer__texte {
@@ -39,7 +40,8 @@
     order: 5; 
     text-align: right; 
     margin-bottom: 10px; 
-    flex-basis: 100%; 
+    flex-basis: 100%;
+    color:#cecac7
 }
 
 .footer__texte a {
